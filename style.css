@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    color: #000;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    line-height: 1.8;
+    padding: 0 20px;
+}
+
+.color-description {
+    padding: 25px;
+    border-radius: 15px;
+    color: #fff; /* All text color set to white */
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 25px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+.color-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+
+/* Have a Background Colors for Each Color */
+.color-description.red { background-color: #e63946; }
+.color-description.blue { background-color: #457b9d; }
+.color-description.green { background-color: #2a9d8f; }
+.color-description.yellow { background-color: #e9c46a; color: #333; }
+.color-description.purple { background-color: #6a4c93; }
+.color-description.orange { background-color: #f4a261; color: #333;  }
+.color-description.pink { background-color: #ff6f91; }
+.color-description.teal { background-color: #008080; }
+.color-description.gold { background-color: #ffd700; color: #333; }
+.color-description.silver { background-color: #c0c0c0; color: #333; }
+.color-description.brown { background-color: #7b3f00; }
+.color-description.cyan { background-color: #00bcd4; color: #333;  }
+.color-description.lime { background-color: #cddc39; color: #333;  }
+.color-description.indigo { background-color: #3f51b5; }
+
+.summary {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    padding: 0 20px;
+}
